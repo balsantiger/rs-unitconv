@@ -1,0 +1,19 @@
+[package]
+name = "unitconv"
+version = "0.1.0"
+edition = "2024"
+authors = ["Sungwoo Lee <balsantiger@gmail.com>"]
+description = "Rust Simple Unit Converter"
+license = "MIT"
+repository = "https://github.com/balsantiger/rs-unitconv"
+readme = "README.md"
+keywords = ["unit", "conversion", "utility"]
+categories = ["science", "mathematics"]
+
+
+[dependencies]
+
+
+[lib]
+name = "unitconv"
+path = "src/lib.rs"
