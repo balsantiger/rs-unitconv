@@ -14,6 +14,12 @@ fn test_kg_to_lb() {
 }
 
 #[test]
+fn test_mile_to_inch() {
+    let inch = mile_to_inch(15);
+    assert_eq!(inch, 950400);
+}
+
+#[test]
 fn test_to_lb() {
     let lb = kg_to_lb(1.0);
     assert!((lb - 2.20462).abs() < 0.0001);
